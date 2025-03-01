@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-01T19:18:19 IST" name="Suite" finished-at="2025-03-01T19:19:27 IST" duration-ms="67914">
+    <groups>
+    </groups>
+    <test started-at="2025-03-01T19:18:19 IST" name="SignupTest" finished-at="2025-03-01T19:18:29 IST" duration-ms="9413">
+      <class name="test.TC001_SignupTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC001_SignupTest@58e1d9d]" started-at="2025-03-01T19:18:19 IST" name="setup" finished-at="2025-03-01T19:18:19 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC001_SignupTest@58e1d9d]" started-at="2025-03-01T19:18:20 IST" name="launchBrowser" finished-at="2025-03-01T19:18:27 IST" duration-ms="6196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="signupTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC001_SignupTest@58e1d9d]" started-at="2025-03-01T19:18:27 IST" name="signupTest" data-provider="readData" finished-at="2025-03-01T19:18:28 IST" duration-ms="1356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testguviuser06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[guvi123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidDetails]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC001_SignupTest@58e1d9d]" started-at="2025-03-01T19:18:28 IST" name="close" finished-at="2025-03-01T19:18:29 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC001_SignupTest -->
+    </test> <!-- SignupTest -->
+    <test started-at="2025-03-01T19:18:29 IST" name="LoginTest" finished-at="2025-03-01T19:18:38 IST" duration-ms="9121">
+      <class name="test.TC002_LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC002_LoginTest@49c90a9c]" started-at="2025-03-01T19:18:29 IST" name="setup" finished-at="2025-03-01T19:18:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC002_LoginTest@49c90a9c]" started-at="2025-03-01T19:18:29 IST" name="launchBrowser" finished-at="2025-03-01T19:18:34 IST" duration-ms="4984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC002_LoginTest@49c90a9c]" started-at="2025-03-01T19:18:34 IST" name="loginTest" data-provider="readData" finished-at="2025-03-01T19:18:38 IST" duration-ms="3328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidDetails]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC002_LoginTest@49c90a9c]" started-at="2025-03-01T19:18:38 IST" name="close" finished-at="2025-03-01T19:18:38 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC002_LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2025-03-01T19:18:39 IST" name="MenuAndCategoriesTest" finished-at="2025-03-01T19:18:45 IST" duration-ms="6717">
+      <class name="test.TC003_MenuAndCategories">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC003_MenuAndCategories@f58853c]" started-at="2025-03-01T19:18:39 IST" name="setup" finished-at="2025-03-01T19:18:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC003_MenuAndCategories@f58853c]" started-at="2025-03-01T19:18:39 IST" name="launchBrowser" finished-at="2025-03-01T19:18:42 IST" duration-ms="3296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="menuAndCategoriesTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC003_MenuAndCategories@f58853c]" started-at="2025-03-01T19:18:42 IST" name="menuAndCategoriesTest" data-provider="readData" finished-at="2025-03-01T19:18:45 IST" duration-ms="2827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidDetails]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuAndCategoriesTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC003_MenuAndCategories@f58853c]" started-at="2025-03-01T19:18:45 IST" name="close" finished-at="2025-03-01T19:18:45 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC003_MenuAndCategories -->
+    </test> <!-- MenuAndCategoriesTest -->
+    <test started-at="2025-03-01T19:18:45 IST" name="ProductDetailsAndAddCartTest" finished-at="2025-03-01T19:19:04 IST" duration-ms="18579">
+      <class name="test.TC004_ProductDetailsAndAddCart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC004_ProductDetailsAndAddCart@1e16c0aa]" started-at="2025-03-01T19:18:45 IST" name="setup" finished-at="2025-03-01T19:18:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC004_ProductDetailsAndAddCart@1e16c0aa]" started-at="2025-03-01T19:18:46 IST" name="launchBrowser" finished-at="2025-03-01T19:18:50 IST" duration-ms="4140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="productDetailsAndAddCart(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC004_ProductDetailsAndAddCart@1e16c0aa]" started-at="2025-03-01T19:18:50 IST" name="productDetailsAndAddCart" data-provider="readData" finished-at="2025-03-01T19:19:03 IST" duration-ms="13791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidDetails]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetailsAndAddCart -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC004_ProductDetailsAndAddCart@1e16c0aa]" started-at="2025-03-01T19:19:04 IST" name="close" finished-at="2025-03-01T19:19:04 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC004_ProductDetailsAndAddCart -->
+    </test> <!-- ProductDetailsAndAddCartTest -->
+    <test started-at="2025-03-01T19:19:04 IST" name="CartAndDelete" finished-at="2025-03-01T19:19:14 IST" duration-ms="10083">
+      <class name="test.TC005_CartAndDelete">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC005_CartAndDelete@2fb0623e]" started-at="2025-03-01T19:19:04 IST" name="setup" finished-at="2025-03-01T19:19:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC005_CartAndDelete@2fb0623e]" started-at="2025-03-01T19:19:04 IST" name="launchBrowser" finished-at="2025-03-01T19:19:07 IST" duration-ms="2734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="cartAndDelete(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC005_CartAndDelete@2fb0623e]" started-at="2025-03-01T19:19:07 IST" name="cartAndDelete" data-provider="readData" finished-at="2025-03-01T19:19:14 IST" duration-ms="6845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidDetails]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartAndDelete -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC005_CartAndDelete@2fb0623e]" started-at="2025-03-01T19:19:14 IST" name="close" finished-at="2025-03-01T19:19:14 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC005_CartAndDelete -->
+    </test> <!-- CartAndDelete -->
+    <test started-at="2025-03-01T19:19:14 IST" name="PurchaseAndLogout" finished-at="2025-03-01T19:19:27 IST" duration-ms="12753">
+      <class name="test.TC006_PurchaseAndLogout">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC006_PurchaseAndLogout@642a7222]" started-at="2025-03-01T19:19:14 IST" name="setup" finished-at="2025-03-01T19:19:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:test.TC006_PurchaseAndLogout@642a7222]" started-at="2025-03-01T19:19:14 IST" name="launchBrowser" finished-at="2025-03-01T19:19:18 IST" duration-ms="3342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="purchaseAndLogout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.TC006_PurchaseAndLogout@642a7222]" started-at="2025-03-01T19:19:18 IST" name="purchaseAndLogout" data-provider="readData" finished-at="2025-03-01T19:19:27 IST" duration-ms="8886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ManiishGuvi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maniish@0212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ValidDetails]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseAndLogout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TC006_PurchaseAndLogout@642a7222]" started-at="2025-03-01T19:19:27 IST" name="close" finished-at="2025-03-01T19:19:27 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TC006_PurchaseAndLogout -->
+    </test> <!-- PurchaseAndLogout -->
+  </suite> <!-- Suite -->
+</testng-results>

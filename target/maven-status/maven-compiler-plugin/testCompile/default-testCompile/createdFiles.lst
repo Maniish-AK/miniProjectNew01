@@ -1,0 +1,15 @@
+pages\PurchasePage.class
+utils\ListenerClass.class
+utils\ExtentReport.class
+pages\ProductPage.class
+pages\LoginPage.class
+pages\CartPage.class
+pages\HomePage.class
+test\TC005_CartAndDelete.class
+base\ProjectSpecificationMethods.class
+test\TC002_LoginTest.class
+test\TC004_ProductDetailsAndAddCart.class
+utils\UtilsClass.class
+test\TC001_SignupTest.class
+test\TC006_PurchaseAndLogout.class
+test\TC003_MenuAndCategories.class
